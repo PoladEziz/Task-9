@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 51px 68px 58px 0px;
+    background-color: #2E7CDF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 538px;
+    height: 697.33px;
+    margin-left: -53px;
+}
+
+form {
+    height: 766px;
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+h1 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+label {
+    width: 100%;
+    height: 50px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    background-color: #2E7CDF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-left: 29px;
+}
+
+.message-label {
+    height: 150px;
+}
+
+.message-input {
+    height: 150px;
+}
+
+button {
+    background: #FFFFFF;
+    padding: 20px 204px 17px 204px;
+    border: 1px solid #2E7CDF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2E7CDF;
+}
+
+.img-btn{
+    width: 50px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.icons{
+    width: 584px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 98px;
+    height: 98px;
+}
