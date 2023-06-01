@@ -72,6 +72,7 @@ input {
 
 .message-input {
     height: 150px;
+    padding: 19px 529px 104px 29px;
 }
 
 button {
@@ -97,12 +98,15 @@ button {
 }
 
 .icons{
-    width: 584px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .icon{
     width: 98px;
     height: 98px;
+}
+
+input::placeholder{
+    color: #FFFFFF;
 }
