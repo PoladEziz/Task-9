@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600;700&family=Poppins:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 51px 71px 97px 75px;
+    background: rgba(203, 197, 193, 0.35);
+}
+
+h1 {
+    margin-bottom: 75px;
+    text-align: center;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #0E3C8A;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    width: 398px;
+    list-style-type: none;
+    background: #FFFFFF;
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+    border-color: #2E7CDF;
+    box-shadow: 4px 4px 4px;
+    border-radius: 10px;
+
+}
+
+ul li img {
+    width: 398px;
+    height: 206px;
+}
+
+ul li p {
+    width: 324px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: auto;
+    color: #051E55;
+}
+
+.clock-photo {
+    width: 29px;
+    height: 27px;
+}
+
+.date-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.date{
+    display: flex;
+    margin: 18px 222px 28px 35px;
+}
