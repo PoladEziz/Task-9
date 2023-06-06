@@ -31,6 +31,7 @@ ul{
 
 ul li {
     width: 398px;
+    padding-top: 12px;
     list-style-type: none;
     background: #FFFFFF;
     border-width: 0px 2px 2px 0px;
