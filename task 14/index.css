@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    padding: 63px 74px 63px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 467px;
+    height: 512px;
+    margin-right: 68px;
+}
+
+h1 {
+    margin-bottom: 80px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #0E3C8A;
+
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #23201E;
+    margin-bottom: 72px;
+}
+
+button {
+    border: none;
+    padding: 15px 40px;
+    background: #2E7CDF;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        flex-direction: column;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -30,8 +30,11 @@ ul{
 }
 
 ul li {
-    width: 398px;
+    width: 30%;
     padding-top: 12px;
+    padding-bottom: 28px;
+    padding-left: 20px ;
+    padding-right: 20px;
     list-style-type: none;
     background: #FFFFFF;
     border-width: 0px 2px 2px 0px;
@@ -54,13 +57,14 @@ ul li p {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    margin: auto;
     color: #051E55;
 }
 
 .clock-photo {
     width: 29px;
     height: 27px;
+    margin-right: 10px;
+
 }
 
 .date-text {
@@ -73,6 +77,60 @@ ul li p {
 }
 
 .date{
+    margin-top: 17px;
     display: flex;
-    margin: 18px 222px 28px 35px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.main{
+    padding: 51px 0 97px 0;
+}
+
+ul{
+    flex-direction: column;
+    gap: 40px;
+}
+
+ul li{
+    width: 60%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.date{
+    margin-top: 0;
+}
+
+}
+
+@media only screen and (max-width: 635px) {
+   
+    ul{
+        gap: 20px;
+    }
+
+    ul li img {
+        width: 200px;
+        height: 100px;
+    }
+
+    ul li p{
+        font-size: 16px;
+    }
+
+    .clock-photo{
+        width: 15px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    .date-text{
+        font-size: 10px;
+    }
 }
