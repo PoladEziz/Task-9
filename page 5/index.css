@@ -77,3 +77,25 @@ p {
     margin-top: 25px;
     padding: 0 27px 48px 27px;
 }
+
+  
+@media only screen and (max-width: 768px) {
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    ul li{
+        width: 60%;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+}
